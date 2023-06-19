@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LGMVIP-Web-Task-4-Calculator/static/css/main.cb348795.css",
+    "main.js": "/LGMVIP-Web-Task-4-Calculator/static/js/main.73a127ea.js",
+    "static/js/787.a174f9e5.chunk.js": "/LGMVIP-Web-Task-4-Calculator/static/js/787.a174f9e5.chunk.js",
+    "index.html": "/LGMVIP-Web-Task-4-Calculator/index.html",
+    "main.cb348795.css.map": "/LGMVIP-Web-Task-4-Calculator/static/css/main.cb348795.css.map",
+    "main.73a127ea.js.map": "/LGMVIP-Web-Task-4-Calculator/static/js/main.73a127ea.js.map",
+    "787.a174f9e5.chunk.js.map": "/LGMVIP-Web-Task-4-Calculator/static/js/787.a174f9e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb348795.css",
+    "static/js/main.73a127ea.js"
+  ]
+}
