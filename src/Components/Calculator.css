@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@200;300;400;500;600&family=Varela&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins", sans-serif;
+    font-weight: 500;
+}
+.calc-container{
+    
+    display: flex;
+    justify-content: center;
+    
+    
+}
+h1{
+    color: white;
+}
+.calc{
+    padding-bottom: 8vh;
+    background-color: black;
+    width: 50vw;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 25px;
+    column-gap: 5px;
+
+}
+.grid .btn{
+    color: white;
+    background-color: rgb(79, 79, 79);
+    width: 150px;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 22px;
+    border: none;
+    justify-self: center;
+
+}
+
+.grid .bg-grey{
+    color: white;
+    
+    width: 150px;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 22px;
+    border: none;
+    justify-self: center;
+  
+    background-color: rgb(95, 95, 95);
+    font-style: bold;
+}
+.grid .operator{
+    color: white;
+    background-color: rgb(233, 174, 25);
+    font-style: bold;
+}
+
+.grid #c{
+    background-color: rgb(95, 95, 95);
+}   
+.grid #zero{
+    
+    border-radius: 22px;
+    width: 150px;
+    height: 60px;
+    /* border-radius: 0; */
+   
+}
+
+.grid #inp{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    margin: auto;
+    width: 90%;
+    text-align:end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+@media screen and (max-width :1235px) {
+    *{
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .calc{
+        background-color: black;
+        width: 100vw;
+
+    }
+    .calc-container{
+        /* position: fixed; */
+        height: 110vh;
+        
+        display: flex;
+        justify-content: center;
+    }
+    .grid .btn {
+        height: 10vh;
+        width:  10vh;
+        border-radius: 10vh;
+    }
+    .grid #zero {
+        height: 10vh;
+        width:  10vh;
+        border-radius: 10vh;
+     
+    }
+    .grid .bg-grey {
+        border-radius: 10vh;
+        height: 10vh;
+        width:  10vh;
+       
+    }
+
+}
